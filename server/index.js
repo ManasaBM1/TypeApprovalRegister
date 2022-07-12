@@ -35,7 +35,8 @@ var options = {
         }
     },
     swaggerUI : {
-        swaggerUIPath: '/tar/docs'
+        swaggerUIPath: '/tar/docs',
+        apiDocsPath: '/tar/api-docs'
     }
 };
 
