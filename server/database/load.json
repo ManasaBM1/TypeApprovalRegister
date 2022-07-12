@@ -123,7 +123,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/register-yourself"
+                                "operation-name": "/tar/v1/register-yourself"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -146,7 +146,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/embed-yourself"
+                                "operation-name": "/tar/v1/embed-yourself"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -169,7 +169,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/redirect-service-request-information"
+                                "operation-name": "/tar/v1/redirect-service-request-information"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -192,7 +192,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/redirect-oam-request-information"
+                                "operation-name": "/tar/v1/redirect-oam-request-information"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -215,7 +215,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/end-subscription"
+                                "operation-name": "/tar/v1/end-subscription"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -238,7 +238,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/inquire-oam-request-approvals"
+                                "operation-name": "/tar/v1/inquire-oam-request-approvals"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -261,7 +261,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/update-client"
+                                "operation-name": "/tar/v1/update-client"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -284,7 +284,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/list-ltps-and-fcs"
+                                "operation-name": "/tar/v1/list-ltps-and-fcs"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -307,7 +307,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/redirect-topology-change-information"
+                                "operation-name": "/tar/v1/redirect-topology-change-information"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -330,7 +330,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/update-operation-key"
+                                "operation-name": "/tar/v1/update-operation-key"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -353,7 +353,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/update-operation-client"
+                                "operation-name": "/tar/v1/update-operation-client"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -376,7 +376,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/bequeath-your-data-and-die"
+                                "operation-name": "/tar/v1/bequeath-your-data-and-die"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -399,7 +399,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/inform-about-application"
+                                "operation-name": "/tar/v1/inform-about-application"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -422,7 +422,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/inform-about-application-in-generic-representation"
+                                "operation-name": "/tar/v1/inform-about-application-in-generic-representation"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -445,7 +445,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/inform-about-release-history"
+                                "operation-name": "/tar/v1/inform-about-release-history"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -468,7 +468,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/inform-about-release-history-in-generic-representation"
+                                "operation-name": "/tar/v1/inform-about-release-history-in-generic-representation"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -491,7 +491,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/start-application-in-generic-representation"
+                                "operation-name": "/tar/v1/start-application-in-generic-representation"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -514,7 +514,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/regard-application"
+                                "operation-name": "/tar/v1/regard-application"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -537,7 +537,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/disregard-application"
+                                "operation-name": "/tar/v1/disregard-application"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -560,7 +560,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/document-approval-status"
+                                "operation-name": "/tar/v1/document-approval-status"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -583,7 +583,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/list-applications"
+                                "operation-name": "/tar/v1/list-applications"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -606,7 +606,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/list-approved-applications-in-generic-representation"
+                                "operation-name": "/tar/v1/list-approved-applications-in-generic-representation"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -629,7 +629,7 @@
                         "layer-protocol-name": "operation-server-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-server-interface-1-0:operation-server-interface-pac": {
                             "operation-server-interface-capability": {
-                                "operation-name": "/v1/redirect-info-about-approval-status-changes"
+                                "operation-name": "/tar/v1/redirect-info-about-approval-status-changes"
                             },
                             "operation-server-interface-configuration": {
                                 "life-cycle-state": "operation-server-interface-1-0:LIFE_CYCLE_STATE_TYPE_EXPERIMENTAL",
@@ -708,9 +708,9 @@
                         "tcp-server-interface-1-0:tcp-server-interface-pac": {
                             "tcp-server-interface-configuration": {
                                 "local-address": {
-                                    "ipv-4-address": "10.118.125.157"
+                                    "ipv-4-address": "mwkibana.testmob.de"
                                 },
-                                "local-port": 1001
+                                "local-port": 80
                             }
                         }
                     }
@@ -729,7 +729,7 @@
                         "layer-protocol-name": "operation-client-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-client-interface-1-0:operation-client-interface-pac": {
                             "operation-client-interface-configuration": {
-                                "operation-name": "/v1/bequeath-your-data-and-die",
+                                "operation-name": "/tar/v1/bequeath-your-data-and-die",
                                 "operation-key": "Operation key not yet provided."
                             },
                             "operation-client-interface-status": {
@@ -779,10 +779,10 @@
                             "tcp-client-interface-configuration": {
                                 "remote-address": {
                                     "ip-address": {
-                                        "ipv-4-address": "10.118.125.157"
+                                        "ipv-4-address": "mwkibana.testmob.de"
                                     }
                                 },
-                                "remote-port": 1001
+                                "remote-port": 80
                             }
                         }
                     }
@@ -801,7 +801,7 @@
                         "layer-protocol-name": "operation-client-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-client-interface-1-0:operation-client-interface-pac": {
                             "operation-client-interface-configuration": {
-                                "operation-name": "/v1/embed-yourself",
+                                "operation-name": "/tar/v1/embed-yourself",
                                 "operation-key": "Operation key not yet provided."
                             },
                             "operation-client-interface-status": {
@@ -825,7 +825,7 @@
                         "layer-protocol-name": "operation-client-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-client-interface-1-0:operation-client-interface-pac": {
                             "operation-client-interface-configuration": {
-                                "operation-name": "/v1/redirect-service-request-information",
+                                "operation-name": "/tar/v1/redirect-service-request-information",
                                 "operation-key": "Operation key not yet provided."
                             },
                             "operation-client-interface-status": {
@@ -849,7 +849,7 @@
                         "layer-protocol-name": "operation-client-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-client-interface-1-0:operation-client-interface-pac": {
                             "operation-client-interface-configuration": {
-                                "operation-name": "/v1/redirect-oam-request-information",
+                                "operation-name": "/tar/v1/redirect-oam-request-information",
                                 "operation-key": "Operation key not yet provided."
                             },
                             "operation-client-interface-status": {
@@ -873,7 +873,7 @@
                         "layer-protocol-name": "operation-client-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-client-interface-1-0:operation-client-interface-pac": {
                             "operation-client-interface-configuration": {
-                                "operation-name": "/v1/inquire-oam-request-approvals",
+                                "operation-name": "/tar/v1/inquire-oam-request-approvals",
                                 "operation-key": "Operation key not yet provided."
                             },
                             "operation-client-interface-status": {
@@ -897,7 +897,7 @@
                         "layer-protocol-name": "operation-client-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-client-interface-1-0:operation-client-interface-pac": {
                             "operation-client-interface-configuration": {
-                                "operation-name": "/v1/redirect-topology-change-information",
+                                "operation-name": "/tar/v1/redirect-topology-change-information",
                                 "operation-key": "Operation key not yet provided."
                             },
                             "operation-client-interface-status": {
@@ -921,7 +921,7 @@
                         "layer-protocol-name": "operation-client-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-client-interface-1-0:operation-client-interface-pac": {
                             "operation-client-interface-configuration": {
-                                "operation-name": "/v1/redirect-info-about-approval-status-changes",
+                                "operation-name": "/tar/v1/redirect-info-about-approval-status-changes",
                                 "operation-key": "Operation key not yet provided."
                             },
                             "operation-client-interface-status": {
@@ -945,7 +945,7 @@
                         "layer-protocol-name": "operation-client-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-client-interface-1-0:operation-client-interface-pac": {
                             "operation-client-interface-configuration": {
-                                "operation-name": "/v1/document-approval-status",
+                                "operation-name": "/tar/v1/document-approval-status",
                                 "operation-key": "Operation key not yet provided."
                             },
                             "operation-client-interface-status": {
@@ -1001,10 +1001,10 @@
                             "tcp-client-interface-configuration": {
                                 "remote-address": {
                                     "ip-address": {
-                                        "ipv-4-address": "10.118.125.157"
+                                        "ipv-4-address": "mwkibana.testmob.de"
                                     }
                                 },
-                                "remote-port": 7001
+                                "remote-port": 80
                             }
                         }
                     }
@@ -1023,7 +1023,7 @@
                         "layer-protocol-name": "operation-client-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-client-interface-1-0:operation-client-interface-pac": {
                             "operation-client-interface-configuration": {
-                                "operation-name": "/v1/register-application",
+                                "operation-name": "/ro/v1/register-application",
                                 "operation-key": "Operation key not yet provided."
                             },
                             "operation-client-interface-status": {
@@ -1047,7 +1047,7 @@
                         "layer-protocol-name": "operation-client-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-client-interface-1-0:operation-client-interface-pac": {
                             "operation-client-interface-configuration": {
-                                "operation-name": "/v1/relay-server-replacement",
+                                "operation-name": "/ro/v1/relay-server-replacement",
                                 "operation-key": "Operation key not yet provided."
                             },
                             "operation-client-interface-status": {
@@ -1071,7 +1071,7 @@
                         "layer-protocol-name": "operation-client-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-client-interface-1-0:operation-client-interface-pac": {
                             "operation-client-interface-configuration": {
-                                "operation-name": "/v1/deregister-application",
+                                "operation-name": "/ro/v1/deregister-application",
                                 "operation-key": "Operation key not yet provided."
                             },
                             "operation-client-interface-status": {
@@ -1095,7 +1095,7 @@
                         "layer-protocol-name": "operation-client-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-client-interface-1-0:operation-client-interface-pac": {
                             "operation-client-interface-configuration": {
-                                "operation-name": "/v1/relay-operation-update",
+                                "operation-name": "/ro/v1/relay-operation-update",
                                 "operation-key": "Operation key not yet provided."
                             },
                             "operation-client-interface-status": {
@@ -1119,7 +1119,7 @@
                         "layer-protocol-name": "operation-client-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-client-interface-1-0:operation-client-interface-pac": {
                             "operation-client-interface-configuration": {
-                                "operation-name": "/v1/inquire-application-type-approvals",
+                                "operation-name": "/ro/v1/inquire-application-type-approvals",
                                 "operation-key": "Operation key not yet provided."
                             },
                             "operation-client-interface-status": {
@@ -1143,7 +1143,7 @@
                         "layer-protocol-name": "operation-client-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-client-interface-1-0:operation-client-interface-pac": {
                             "operation-client-interface-configuration": {
-                                "operation-name": "/v1/notify-deregistrations",
+                                "operation-name": "/ro/v1/notify-deregistrations",
                                 "operation-key": "Operation key not yet provided."
                             },
                             "operation-client-interface-status": {
@@ -1167,7 +1167,7 @@
                         "layer-protocol-name": "operation-client-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-client-interface-1-0:operation-client-interface-pac": {
                             "operation-client-interface-configuration": {
-                                "operation-name": "/v1/regard-updated-approval-status",
+                                "operation-name": "/ro/v1/regard-updated-approval-status",
                                 "operation-key": "Operation key not yet provided."
                             },
                             "operation-client-interface-status": {
@@ -1191,7 +1191,7 @@
                         "layer-protocol-name": "operation-client-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-client-interface-1-0:operation-client-interface-pac": {
                             "operation-client-interface-configuration": {
-                                "operation-name": "/v1/end-subscription",
+                                "operation-name": "/ro/v1/end-subscription",
                                 "operation-key": "Operation key not yet provided."
                             },
                             "operation-client-interface-status": {
@@ -1248,10 +1248,10 @@
                             "tcp-client-interface-configuration": {
                                 "remote-address": {
                                     "ip-address": {
-                                        "ipv-4-address": "10.118.125.157"
+                                        "ipv-4-address": "mwkibana.testmob.de"
                                     }
                                 },
-                                "remote-port": 1000
+                                "remote-port": 80
                             }
                         }
                     }
@@ -1270,7 +1270,7 @@
                         "layer-protocol-name": "operation-client-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_OPERATION_LAYER",
                         "operation-client-interface-1-0:operation-client-interface-pac": {
                             "operation-client-interface-configuration": {
-                                "operation-name": "/v1/record-service-request",
+                                "operation-name": "/eatl/v1/record-service-request",
                                 "operation-key": "Operation key not yet provided.",
                                 "detailed-logging-is-on": "false"
                             },
@@ -1321,10 +1321,10 @@
                             "tcp-client-interface-configuration": {
                                 "remote-address": {
                                     "ip-address": {
-                                        "ipv-4-address": "10.118.125.157"
+                                        "ipv-4-address": "mwkibana.testmob.de"
                                     }
                                 },
-                                "remote-port": 1002
+                                "remote-port": 80
                             }
                         }
                     }
@@ -1393,10 +1393,10 @@
                             "tcp-client-interface-configuration": {
                                 "remote-address": {
                                     "ip-address": {
-                                        "ipv-4-address": "10.118.125.157"
+                                        "ipv-4-address": "mwkibana.testmob.de"
                                     }
                                 },
-                                "remote-port": 1003
+                                "remote-port": 80
                             }
                         }
                     }
@@ -1465,10 +1465,10 @@
                             "tcp-client-interface-configuration": {
                                 "remote-address": {
                                     "ip-address": {
-                                        "ipv-4-address": "10.118.125.157"
+                                        "ipv-4-address": "mwkibana.testmob.de"
                                     }
                                 },
-                                "remote-port": 1004
+                                "remote-port": 80
                             }
                         }
                     }
@@ -1662,10 +1662,10 @@
                             "tcp-client-interface-configuration": {
                                 "remote-address": {
                                     "ip-address": {
-                                        "ipv-4-address": "10.118.125.157"
+                                        "ipv-4-address": "mwkibana.testmob.de"
                                     }
                                 },
-                                "remote-port": 1005
+                                "remote-port": 80
                             }
                         }
                     }
