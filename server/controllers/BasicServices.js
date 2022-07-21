@@ -5,7 +5,7 @@ var responseCodeEnum = require('onf-core-model-ap/applicationPattern/rest/server
 var restResponseHeader = require('onf-core-model-ap/applicationPattern/rest/server/ResponseHeader');
 var restResponseBuilder = require('onf-core-model-ap/applicationPattern/rest/server/ResponseBuilder');
 var executionAndTraceService = require('onf-core-model-ap-bs/basicServices/ExecutionAndTraceService');
-
+const ms = require('microseconds')
 
 module.exports.embedYourself = async function embedYourself(req, res, next, body, user, originator, xCorrelator, traceIndicator, customerJourney) {
   try {
@@ -267,6 +267,8 @@ module.exports.registerYourself = async function registerYourself(req, res, next
         restResponseBuilder.buildResponse(res, responseCode, responseBody, responseHeader);
       });
     executionAndTraceService.recordServiceRequest(xCorrelator, traceIndicator, user, originator, req.url, responseCode, req.body, responseBodyToDocument);
+    const now = ms.now();
+    console.log("/v1/register-yourself $$$$$$$$$$$$$$ " + ms.parse(now) + "$$$$$$$$$$$$$$")
   } catch (error) {}
 
 };
