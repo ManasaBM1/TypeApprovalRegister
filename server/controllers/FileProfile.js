@@ -31,9 +31,9 @@ module.exports.getFileProfileFileIdentifier = async function getFileProfileFileI
   oamLogService.recordOamRequest(req.url, req.body, responseCode, req.headers.authorization, req.method);
 };
 
-module.exports.getFileProfileFileName = async function getFileProfileFileName(req, res, next, uuid) {
+module.exports.getFileProfileFilePath = async function getFileProfileFilePath(req, res, next, uuid) {
   let responseCode = responseCodeEnum.code.OK;
-  await FileProfile.getFileProfileFileName(req.url)
+  await FileProfile.getFileProfileFilePath(req.url)
     .then(function (response) {
       responseBuilder.buildResponse(res, responseCode, response);
     })
@@ -57,9 +57,35 @@ module.exports.getFileProfileOperation = async function getFileProfileOperation(
   oamLogService.recordOamRequest(req.url, req.body, responseCode, req.headers.authorization, req.method);
 };
 
-module.exports.putFileProfileFileName = async function putFileProfileFileName(req, res, next, body, uuid) {
+module.exports.getFileProfilePassword = async function getFileProfilePassword(req, res, next, uuid) {
+  let responseCode = responseCodeEnum.code.OK;
+  await FileProfile.getFileProfilePassword(req.url)
+    .then(function (response) {
+      responseBuilder.buildResponse(res, responseCode, response);
+    })
+    .catch(function (response) {
+      let sentResp = responseBuilder.buildResponse(res, undefined, response);
+      responseCode = sentResp.code;
+    });
+  oamLogService.recordOamRequest(req.url, req.body, responseCode, req.headers.authorization, req.method);
+};
+
+module.exports.getFileProfileUserName = async function getFileProfileUserName(req, res, next, uuid) {
+  let responseCode = responseCodeEnum.code.OK;
+  await FileProfile.getFileProfileUserName(req.url)
+    .then(function (response) {
+      responseBuilder.buildResponse(res, responseCode, response);
+    })
+    .catch(function (response) {
+      let sentResp = responseBuilder.buildResponse(res, undefined, response);
+      responseCode = sentResp.code;
+    });
+  oamLogService.recordOamRequest(req.url, req.body, responseCode, req.headers.authorization, req.method);
+};
+
+module.exports.putFileProfileFilePath = async function putFileProfileFilePath(req, res, next, body, uuid) {
   let responseCode = responseCodeEnum.code.NO_CONTENT;
-  await FileProfile.putFileProfileFileName(req.url, body)
+  await FileProfile.putFileProfileFilePath(req.url, body)
     .then(function (response) {
       responseBuilder.buildResponse(res, responseCode, response);
     })
@@ -73,6 +99,32 @@ module.exports.putFileProfileFileName = async function putFileProfileFileName(re
 module.exports.putFileProfileOperation = async function putFileProfileOperation(req, res, next, body, uuid) {
   let responseCode = responseCodeEnum.code.NO_CONTENT;
   await FileProfile.putFileProfileOperation(req.url, body)
+    .then(function (response) {
+      responseBuilder.buildResponse(res, responseCode, response);
+    })
+    .catch(function (response) {
+      let sentResp = responseBuilder.buildResponse(res, undefined, response);
+      responseCode = sentResp.code;
+    });
+  oamLogService.recordOamRequest(req.url, req.body, responseCode, req.headers.authorization, req.method);
+};
+
+module.exports.putFileProfilePassword = async function putFileProfilePassword(req, res, next, body, uuid) {
+  let responseCode = responseCodeEnum.code.NO_CONTENT;
+  await FileProfile.putFileProfilePassword(req.url, body)
+    .then(function (response) {
+      responseBuilder.buildResponse(res, responseCode, response);
+    })
+    .catch(function (response) {
+      let sentResp = responseBuilder.buildResponse(res, undefined, response);
+      responseCode = sentResp.code;
+    });
+  oamLogService.recordOamRequest(req.url, req.body, responseCode, req.headers.authorization, req.method);
+};
+
+module.exports.putFileProfileUserName = async function putFileProfileUserName(req, res, next, body, uuid) {
+  let responseCode = responseCodeEnum.code.NO_CONTENT;
+  await FileProfile.putFileProfileUserName(req.url, body)
     .then(function (response) {
       responseBuilder.buildResponse(res, responseCode, response);
     })
